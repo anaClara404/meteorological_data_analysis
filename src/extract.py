@@ -19,7 +19,7 @@ def fetch_weather(city_dict, api_key, endpoint="https://api.openweathermap.org/d
             # adiciona o nome manualmente para melhor consistência
             data["city_name_custom"] = city_dict["name"]
 
-            ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+            ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
             fname = f"data/raw/{city_dict['name'].replace(' ','_')}_{ts}.json"
             os.makedirs("data/raw", exist_ok=True)
             with open(fname, "w", encoding="utf-8") as f:
