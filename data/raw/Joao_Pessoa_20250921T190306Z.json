@@ -1,6 +1,6 @@
 {
   "coord": {
-    "lon": -34.845,
+    "lon": -34.8386,
     "lat": -7.1195
   },
   "weather": [
@@ -13,30 +13,30 @@
   ],
   "base": "stations",
   "main": {
-    "temp": 302.28,
-    "feels_like": 304.09,
-    "temp_min": 302.28,
-    "temp_max": 302.28,
+    "temp": 301.35,
+    "feels_like": 303.02,
+    "temp_min": 301.35,
+    "temp_max": 301.35,
     "pressure": 1014,
-    "humidity": 58,
+    "humidity": 61,
     "sea_level": 1014,
     "grnd_level": 1011
   },
   "visibility": 10000,
   "wind": {
-    "speed": 6.69,
+    "speed": 7.2,
     "deg": 100
   },
   "clouds": {
     "all": 75
   },
-  "dt": 1758391277,
+  "dt": 1758394624,
   "sys": {
     "type": 1,
     "id": 8391,
     "country": "BR",
-    "sunrise": 1758355798,
-    "sunset": 1758399340
+    "sunrise": 1758355796,
+    "sunset": 1758399339
   },
   "timezone": -10800,
   "id": 3397277,

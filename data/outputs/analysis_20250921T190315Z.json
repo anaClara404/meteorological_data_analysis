@@ -1,0 +1,25 @@
+{
+  "generated_at": "20250921T190315Z",
+  "analysis": {
+    "resumo": "As condições atuais mostram temperaturas amenas a quentes com predomínio de céu nublado em todas as cidades analisadas. A umidade varia de 56% a 89%, com Porto Alegre apresentando maior umidade e temperaturas mais baixas. Os ventos estão moderados, com destaque para Rio de Janeiro e João Pessoa. Não há indicação de chuvas intensas no momento.",
+    "melhor_cidade": {
+      "cidade": "João Pessoa",
+      "motivo": "Apresenta a maior temperatura agradável (28.2°C) com sensação térmica confortável e umidade moderada (61%), além de ventos favoráveis para atividades ao ar livre."
+    },
+    "pior_cidade": {
+      "cidade": "Porto Alegre",
+      "motivo": "Temperatura mais baixa (22.22°C) combinada com alta umidade (89%) e ventos fracos, o que pode causar sensação de frio e desconforto."
+    },
+    "recomendacoes": [
+      "Aproveitar atividades ao ar livre em João Pessoa e Rio de Janeiro devido ao clima ameno e ventos moderados.",
+      "Evitar exercícios físicos intensos em Porto Alegre devido à alta umidade e temperaturas mais baixas.",
+      "Levar roupas leves e protetor solar nas cidades com temperaturas acima de 27°C.",
+      "Ficar atento a possíveis mudanças no clima, apesar da tendência estável."
+    ],
+    "tendencia": "estável",
+    "metadata": {
+      "gerado_em": "2024-06-21T19:03:25Z",
+      "total_cidades": 5
+    }
+  }
+}

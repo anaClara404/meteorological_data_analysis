@@ -1,6 +1,0 @@
-cidade,temp_c,sensacao_termica_c,temp_min_c,temp_max_c,umidade,pressao,vento_m_s,vento_dir,clima_main,clima_desc,categoria_clima,timestamp
-Liberdade,30.17,29.89,29.63,32.88,40,1011,5.66,350,Clear,clear sky,Céu limpo,1758391273
-Rio de Janeiro,29.74,31.8,27.9,30.23,57,1011,6.17,130,Clear,clear sky,Céu limpo,1758391167
-Recife,27.02,29.23,27.02,27.02,74,1015,5.66,130,Clouds,broken clouds,Nublado,1758391204
-João Pessoa,29.13,30.94,29.13,29.13,58,1014,6.69,100,Clouds,broken clouds,Nublado,1758391277
-Porto Alegre,22.34,22.93,21.89,23.23,88,1011,3.6,250,Clouds,broken clouds,Nublado,1758391278

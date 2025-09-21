@@ -7,7 +7,7 @@ from openai import OpenAI
 from openai import OpenAI, OpenAIError
 
 
-# Carrega variáveis de ambiente (.env)
+# carrega var de ambiente (.env)
 load_dotenv()
 API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -15,10 +15,6 @@ if not API_KEY:
     raise ValueError("Chave da OpenAI não encontrada. Defina OPENAI_API_KEY no .env")
 
 client = OpenAI(api_key=API_KEY)
-
-# ---------------------------
-# Função principal
-# ---------------------------
 
 def analyze_with_openai(weather_data: list[dict], model: str = "gpt-4.1-mini") -> dict:
     """

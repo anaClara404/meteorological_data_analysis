@@ -7,9 +7,8 @@ from transform import transform_weather_data
 from persist import save_csv, save_json
 from llm import analyze_with_openai
 
-# ---------------------------
-# Setup inicial
-# ---------------------------
+
+# setup 
 
 def main():
     # carregar variáveis do .env
@@ -22,23 +21,23 @@ def main():
 
     print("=== INÍCIO DO PIPELINE DE ANÁLISE METEOROLÓGICA ===")
 
-    # 1) Extrair
+    # 1) extrair
     print("[1] Extraindo dados da API OpenWeather...")
     raw_data = [fetch_weather(city, weather_api_key) for city in CITIES]
 
-    # 2) Transformar
+    # 2) transformar
     print("[2] Transformando dados com pandas...")
     df = transform_weather_data(raw_data)
 
-    # 3) Persistir (CSV + JSON)
+    # 3) persistir (CSV + JSON)
     print("[3] Salvando dados estruturados...")
     save_csv(df)
 
-    # 4) Analisar com LLM
+    # 4) analisar com LLM
     print(f"[4] Gerando análise com modelo {llm_model}...")
     analysis = analyze_with_openai(df.to_dict(orient="records"), model=llm_model)
 
-    # 5) Persistir análise em JSON
+    # 5) persistir análise em JSON
     print("[5] Salvando análise do LLM...")
     save_json(analysis)
 

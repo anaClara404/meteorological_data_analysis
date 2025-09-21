@@ -2,9 +2,6 @@ import requests, time, os, json
 from datetime import datetime, timezone
 
 def fetch_weather(city_dict, api_key, endpoint="https://api.openweathermap.org/data/2.5/weather"):
-    """
-    city_dict: {"name": "São Paulo", "lat": -23.55, "lon": -46.63}
-    """
     params = {
         "lat": city_dict["lat"],
         "lon": city_dict["lon"],

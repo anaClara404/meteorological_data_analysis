@@ -1,6 +1,0 @@
-cidade,temp_c,sensacao_termica_c,temp_min_c,temp_max_c,umidade,pressao,vento_m_s,vento_dir,clima_main,clima_desc,categoria_clima,timestamp
-Liberdade,30.17,29.89,29.63,32.88,40,1011,5.66,350,Clear,clear sky,Céu limpo,1758390918
-Rio de Janeiro,29.74,31.98,27.9,30.23,58,1011,6.17,130,Clear,clear sky,Céu limpo,1758390577
-Belo Horizonte,29.55,28.99,28.74,30.61,38,1012,1.54,270,Clouds,broken clouds,Nublado,1758390579
-Fortaleza,30.05,32.53,27.32,30.05,58,1012,9.77,100,Clouds,few clouds,Nublado,1758390580
-Porto Alegre,22.34,22.9,21.89,23.23,87,1011,4.12,250,Clouds,broken clouds,Nublado,1758390294

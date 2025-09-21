@@ -21,7 +21,7 @@ def save_csv(df: pd.DataFrame, out_dir: str = "data/outputs"):
     ensure_dir(out_dir)
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     fname = os.path.join(out_dir, f"weather_summary_{ts}.csv")
-    df.to_csv(fname, index=False, encoding="utf-8")
+    df.to_csv(fname, index=False, sep=';', encoding="utf-8")
     print(f"[OK] CSV salvo em {fname}")
 
 def save_json(analysis: dict, out_dir: str = "data/outputs"):
