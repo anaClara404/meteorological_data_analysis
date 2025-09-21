@@ -1,0 +1,25 @@
+{
+  "generated_at": "20250921T175512Z",
+  "analysis": {
+    "resumo": "As condições atuais mostram temperaturas amenas a elevadas, com céu predominantemente claro a parcialmente nublado. As cidades do litoral apresentam sensação térmica mais alta devido à umidade, enquanto Porto Alegre está mais fresca e úmida. O vento varia de moderado a forte, especialmente em Fortaleza.",
+    "melhor_cidade": {
+      "cidade": "Liberdade",
+      "motivo": "Apresenta a maior temperatura máxima com céu limpo e umidade baixa, proporcionando um clima agradável e ensolarado."
+    },
+    "pior_cidade": {
+      "cidade": "Porto Alegre",
+      "motivo": "Temperatura mais baixa, alta umidade e céu nublado, o que pode indicar desconforto térmico e clima menos agradável."
+    },
+    "recomendacoes": [
+      "Aproveitar atividades ao ar livre em Liberdade e Rio de Janeiro devido ao céu limpo.",
+      "Evitar exposição prolongada ao sol em Fortaleza por causa da alta sensação térmica e vento forte.",
+      "Em Porto Alegre, preferir atividades internas devido à umidade elevada e céu nublado.",
+      "Usar protetor solar e hidratar-se bem nas cidades com temperaturas elevadas."
+    ],
+    "tendencia": "estável",
+    "metadata": {
+      "gerado_em": "2025-07-21T15:15:18Z",
+      "total_cidades": 5
+    }
+  }
+}

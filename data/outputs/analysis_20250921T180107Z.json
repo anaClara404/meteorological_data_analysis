@@ -1,0 +1,25 @@
+{
+  "generated_at": "20250921T180107Z",
+  "analysis": {
+    "resumo": "As condições atuais mostram temperaturas amenas a quentes, com céu limpo nas cidades Liberdade e Rio de Janeiro, e céu nublado em Recife, João Pessoa e Porto Alegre. A umidade varia de 40% a 88%, com ventos moderados predominando. Porto Alegre apresenta a temperatura mais baixa e maior umidade, enquanto Liberdade tem a temperatura mais alta e céu limpo.",
+    "melhor_cidade": {
+      "cidade": "Liberdade",
+      "motivo": "Temperatura mais alta com sensação térmica agradável e céu limpo, ideal para atividades ao ar livre."
+    },
+    "pior_cidade": {
+      "cidade": "Porto Alegre",
+      "motivo": "Temperatura mais baixa, alta umidade e céu nublado, o que pode indicar desconforto e menor aproveitamento do dia."
+    },
+    "recomendacoes": [
+      "Aproveitar atividades ao ar livre em Liberdade e Rio de Janeiro devido ao céu limpo e temperaturas agradáveis.",
+      "Evitar atividades físicas intensas em Recife e João Pessoa devido à sensação térmica elevada.",
+      "Em Porto Alegre, recomenda-se usar roupas adequadas para temperaturas mais baixas e considerar atividades internas.",
+      "Manter hidratação adequada em todas as cidades, especialmente onde a umidade está baixa."
+    ],
+    "tendencia": "estável",
+    "metadata": {
+      "gerado_em": "2024-06-21T15:27:58Z",
+      "total_cidades": 5
+    }
+  }
+}

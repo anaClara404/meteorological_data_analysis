@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": -34.8811,
+    "lat": -8.0539
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 300.17,
+    "feels_like": 302.38,
+    "temp_min": 300.17,
+    "temp_max": 300.17,
+    "pressure": 1015,
+    "humidity": 74,
+    "sea_level": 1015,
+    "grnd_level": 1012
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.66,
+    "deg": 130
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1758391204,
+  "sys": {
+    "type": 1,
+    "id": 8426,
+    "country": "BR",
+    "sunrise": 1758355810,
+    "sunset": 1758399345
+  },
+  "timezone": -10800,
+  "id": 3390760,
+  "name": "Recife",
+  "cod": 200,
+  "city_name_custom": "Recife"
+}

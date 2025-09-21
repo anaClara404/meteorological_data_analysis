@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": -51.2177,
+    "lat": -30.0346
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 295.49,
+    "feels_like": 296.08,
+    "temp_min": 295.04,
+    "temp_max": 296.38,
+    "pressure": 1011,
+    "humidity": 88,
+    "sea_level": 1011,
+    "grnd_level": 1006
+  },
+  "visibility": 7000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 250
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1758391278,
+  "sys": {
+    "type": 1,
+    "id": 8467,
+    "country": "BR",
+    "sunrise": 1758359802,
+    "sunset": 1758403193
+  },
+  "timezone": -10800,
+  "id": 3452925,
+  "name": "Porto Alegre",
+  "cod": 200,
+  "city_name_custom": "Porto Alegre"
+}

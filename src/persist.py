@@ -24,16 +24,6 @@ def save_csv(df: pd.DataFrame, out_dir: str = "data/outputs"):
     df.to_csv(fname, index=False, encoding="utf-8")
     print(f"[OK] CSV salvo em {fname}")
 
-
-def save_excel(df: pd.DataFrame, out_dir: str = "data/outputs"):
-    """Salva DataFrame em Excel (opcional)."""
-    ensure_dir(out_dir)
-    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    fname = os.path.join(out_dir, f"weather_summary_{ts}.xlsx")
-    df.to_excel(fname, index=False, engine="openpyxl")
-    print(f"[OK] Excel salvo em {fname}")
-
-
 def save_json(analysis: dict, out_dir: str = "data/outputs"):
     """Salva análise do LLM em JSON estruturado."""
     ensure_dir(out_dir)
