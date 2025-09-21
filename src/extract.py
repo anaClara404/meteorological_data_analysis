@@ -1,5 +1,5 @@
 import requests, time, os, json
-from datetime import datetime
+from datetime import datetime, timezone
 
 def fetch_weather(city_dict, api_key, endpoint="https://api.openweathermap.org/data/2.5/weather"):
     """
@@ -16,7 +16,7 @@ def fetch_weather(city_dict, api_key, endpoint="https://api.openweathermap.org/d
             r.raise_for_status()
             data = r.json()
 
-            # adiciona o nome manualmente para consistência
+            # adiciona o nome manualmente para melhor consistência
             data["city_name_custom"] = city_dict["name"]
 
             ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
